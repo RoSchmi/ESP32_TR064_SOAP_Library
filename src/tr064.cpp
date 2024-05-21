@@ -9,10 +9,19 @@
  * such as Routers, smartplugs, DECT telephones etc.
  * Details, examples and the latest version of this library can be found on <a href="https://github.com/Aypac/Arduino-TR-064-SOAP-Library">the Github page</a>.
  * A descriptor of the protocol can be found <a href="https://avm.de/fileadmin/user_upload/Global/Service/Schnittstellen/AVM_TR-064_first_steps.pdf" target="_blank">here</a>.
- * Modifications to work with https by RoSchmi Feb 2022
+ *
+ * This libaray is a modification of:
+ * <a href="https://github.com/Aypac/Arduino-TR-064-SOAP-Library/blob/master</a>
+ * by René Vollmer
  * 
+ *  @section author Author
+ * Modification to work with https by RoSchmi Feb 2022
+ * RoSchmi (aka <a href="https://github.com/RoSchmi"</a>.
+ *
+ * @section license License
+ *
  * Initial version: November 2016<br />
- * Last updated: Feb 2022
+ * Last updated: May 2024
  *
  * @section dependencies Dependencies
  *
@@ -20,16 +29,7 @@
  * <li>MD5Builder (versions for <a href="https://github.com/esp8266/Arduino/blob/master/cores/esp8266/MD5Builder.cpp" target="_blank">ESP8266</a>, <a href="https://github.com/espressif/arduino-esp32/blob/master/cores/esp32/MD5Builder.h" target="_blank">ESP32</a></li>)
  * <li><a href="https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266HTTPClient" target="_blank">ESP8266HTTPClient</a> (ESP8266) or <a href="https://github.com/espressif/arduino-esp32/tree/master/libraries/HTTPClient" target="_blank">HTTPClient</a> (ESP32)</li></ul>
  *
- * @section author Author
- *
- * Written by René Vollmer (aka <a href="https://github.com/Aypac" target="_blank">Aypac</a>), with contributions from others. See <a href="https://github.com/Aypac/Arduino-TR-064-SOAP-Library">Github for details</a>.
- *
- * @section license License
- *
- * <a href="https://github.com/Aypac/Arduino-TR-064-SOAP-Library/blob/master/LICENSE">MIT License</a>
- *
  */
-
 
 #include "tr064.h"
 
