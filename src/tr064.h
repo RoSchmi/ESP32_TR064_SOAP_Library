@@ -1,4 +1,10 @@
 /*!
+ * This is a modification of the original version of René Vollmer
+ * by RoSchmi https://github.com/RoSchmi
+ */
+
+/*!
+ * Copyright remarks of the original version by René Vollmer
  * @file tr064.h
  * 
  * Library for communicating via TR-064 protocol (e.g. Fritz!Box)
